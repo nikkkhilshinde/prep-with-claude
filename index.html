@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DSA Prep</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Sidebar -->
+    <aside id="sidebar">
+      <div id="sidebar-header">
+        <span id="logo">DSA Prep</span>
+        <button id="btn-home" title="Dashboard">⌂</button>
+      </div>
+      <div id="phase-list"></div>
+    </aside>
+
+    <!-- Main -->
+    <main id="main" style="overflow-y:auto">
+      <div id="view-dashboard" class="view active"></div>
+      <div id="view-pattern" class="view"></div>
+    </main>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="state.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
